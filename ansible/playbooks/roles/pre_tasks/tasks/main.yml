@@ -1,0 +1,5 @@
+---
+
+- name: ここにテストしたいタスクを書いていく。
+  command: echo "execute pre_tasks."
+

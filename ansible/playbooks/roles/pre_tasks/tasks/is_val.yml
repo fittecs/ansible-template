@@ -1,0 +1,13 @@
+---
+
+- name: set is_{{ name }} false
+  set_fact:
+    "is_{{ name }}": false
+  when: not value
+  tags: always
+
+- name: set is_{{ name }} true
+  set_fact:
+    "is_{{ name }}": true
+  when: value
+  tags: always

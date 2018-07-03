@@ -1,0 +1,9 @@
+---
+
+- hosts: all
+  pre_tasks:
+    - include: roles/pre_tasks/tasks/main.yml
+
+- hosts: aws
+  roles:
+    - aws/config

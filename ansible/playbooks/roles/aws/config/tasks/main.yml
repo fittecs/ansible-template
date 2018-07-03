@@ -1,0 +1,4 @@
+---
+
+- name: ここにテストしたいタスクを書いていく。
+  command: echo "execute aws/config."
